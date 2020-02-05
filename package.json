@@ -53,17 +53,21 @@
     "genomics"
   ],
   "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "babel-preset-env": "^1.7.0",
     "babel-runtime": "^6.26.0",
     "es6-promisify": "^6.0.0",
+    "jest": "^25.1.0",
     "tmp-promise": "^1.0.4",
     "typical": "^3.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-env": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.1.8",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.18.0",
     "documentation": "^9.1.1",
     "eslint": "^5.12.0",
